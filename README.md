@@ -13,19 +13,16 @@ Assumptions:
 - Dataset file will always contain the same attributes (id, full_name, email)
 - Database is setup for this application assuming that it will be used to scale, but not using it currently.
 
-* Ruby version
+##### Ruby version
 3.0.0
 
-* Configuration
-bundle install
-rails db:create
+##### Configuration
+- `bundle install`
+- `rails db:create`
 
-* Access via command line
+##### Access via command line
 `rails r lib/query-cli.rb`
 
-* Access via API
-`rails s` to start
-
-Documentation for endpoints can be exported to Postman using .json file
-
-* How to run the test suite
+##### Access via API
+`rails s` to start 
+- Documentation for endpoints can be exported to Postman using client-search.postman_collection.json file
