@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "72ac4773-dca5-4c21-b63f-bb37d99d59f9",
+		"name": "Client Query",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30563820"
+	},
+	"item": [
+		{
+			"name": "Search for client name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/clients/query?q=em",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"clients",
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "em",
+							"description": "search name with this string"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query from file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_for",
+							"value": "email",
+							"description": "field to search for: id, full_name (default), email",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": "em",
+							"description": "string to search",
+							"type": "text"
+						},
+						{
+							"key": "client_file",
+							"description": "Optional",
+							"type": "file",
+							"src": "/Users/lauricelim/Documents/Sample Projects/client-search/client-search/client.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/clients/query_from_file",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"clients",
+						"query_from_file"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find duplicate emails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/clients/find_duplicate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"clients",
+						"find_duplicate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
