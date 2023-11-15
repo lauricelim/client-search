@@ -1,0 +1,16 @@
+{
+    "result": {
+        "jane.smith@yahoo.com": [
+            {
+                "id": 2,
+                "full_name": "Jane Smith",
+                "email": "jane.smith@yahoo.com"
+            },
+            {
+                "id": 15,
+                "full_name": "Another Jane Smith",
+                "email": "jane.smith@yahoo.com"
+            }
+        ]
+    }
+}

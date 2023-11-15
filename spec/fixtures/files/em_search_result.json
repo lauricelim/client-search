@@ -1,0 +1,15 @@
+{
+  "result": [
+      {
+          "id": 5,
+          "full_name": "Emily Brown",
+          "email": "emily.brown@aol.com"
+      },
+      {
+          "id": 12,
+          "full_name": "Emma Lopez",
+          "email": "emma.lopez@protonmail.ch"
+      }
+  ],
+  "searched_field": "full_name"
+}

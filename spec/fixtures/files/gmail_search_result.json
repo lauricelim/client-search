@@ -1,0 +1,15 @@
+{
+  "result": [
+      {
+          "id": 1,
+          "full_name": "John Boe",
+          "email": "john.boe@gmail.com"
+      },
+      {
+          "id": 3,
+          "full_name": "Alex Johnson",
+          "email": "alex.johnson@gmail.com"
+      }
+  ],
+  "searched_field": "email"
+}

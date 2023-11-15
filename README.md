@@ -20,6 +20,9 @@ Assumptions:
 - `bundle install`
 - `rails db:create`
 
+##### Run Tests
+- `rspec spec`
+
 ##### Access via command line
 `rails r lib/query-cli.rb`
 
